@@ -1,7 +1,10 @@
 # YOLOv5su-based Object Detection App
 
 ## Introduction
-Welcome to SlashAI, an object detection application built using YOLOv5su. We have chosen YOLOv5su for its excellent balance of speed and accuracy, making it a reasonable choice for high-quality results in real-time object detection tasks.
+Welcome, This is an object detection application built using YOLOv5su. We have chosen YOLOv5su for its excellent balance of speed and accuracy, making it a reasonable choice for high-quality results in real-time object detection tasks.
+
+The user should only upload an image and press (Analyze Image) button and it will return the names of the objects in the image.
+![image](https://github.com/a5medashraf/Image-Component-Detector/assets/72763763/ac5b8d70-c74a-41da-8902-464f858e2354)
 
 ## How to Use
 
