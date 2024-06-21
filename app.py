@@ -3,7 +3,9 @@ from PIL import Image
 from ultralytics import YOLO
 
 
-model = YOLO('yolov5s.pt')
+
+# Yolo Model and the model results
+model = YOLO('yolov5su.pt')
 
 def analyze_image(image):
     results = model(image)
@@ -12,6 +14,9 @@ def analyze_image(image):
     return detectedComponents
 
 
+
+
+# Stramlit Interface
 st.title("Image Component Detector")    
 st.write("Upload an image and click 'Analyze Image' to detect components in the image.")
 
