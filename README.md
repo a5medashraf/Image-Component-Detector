@@ -1,1 +1,1 @@
-# slash-intern-component-detector
+# Image-Component-Detector
